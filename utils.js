@@ -11,7 +11,7 @@ async function autoScroll(page) {
         window.scrollBy(0, distance);
         totalHeight += distance;
 
-        if (scrollHeight > 5000) {
+        if (scrollHeight > 8000) {
           clearInterval(timer);
           resolve();
         }
